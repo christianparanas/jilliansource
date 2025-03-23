@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",  // Anchor paths to project root
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],              // General alias for src/
+      "@/icons/*": ["./src/components/icons/*"]  // Specific alias for icons
     }
   }
 }
